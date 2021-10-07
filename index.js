@@ -1,8 +1,10 @@
 // TODO: Include packages needed for this application
-// inquirer will be needed to create the questions 
-// file system will be needed to write the README.md file
+// inquirer will be needed to create the questions as a third party module 
+// file system will be needed to write the README.md file as a core module
+// generateMarkdown will be needed as a local module
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -34,13 +36,6 @@ const questions = [
 
     },
     {
-      type: 'list',
-      name: 'license',
-      message: 'What type of license does your project have?',
-      choices: [',',''],
-      default: 'MIT',
-    },
-    {
       type: 'input',
       name: 'contributing',
       message: 'What are the contribution guidelines?',
@@ -51,14 +46,39 @@ const questions = [
       name: 'test',
       message: 'Enter the tests instructions',
       default: '',
-    }
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What type of license does your project have?',
+        choices: [',',''],
+        default: 'MIT',
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?',
+        default: '',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address',
+        default: '',
+      },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('success')); //how do I give it .md format? should'nt filename be always -README-?
+    
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((data) => writeToFile('sampleREADME.md',JSON.stringify(data)));
+}
 
 // Function call to initialize app
 init();
