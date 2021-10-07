@@ -14,7 +14,14 @@ function renderLicenseSection(license) {}
 
 function generateMarkdown(data) {     // Should I do an fs.appendFile() inside this function?
   return `# ${data.title}
-
+  # ${data.description}
+  # ${data.installation}
+  # ${data.usage}
+  # ${data.contributing}
+  # ${data.test}
+  # ${data.license}
+  # ${data.github}
+  # ${data.email}
 `;
 }
 
