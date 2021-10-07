@@ -7,13 +7,13 @@ This project will create a professional README.md file from the command line. Th
 - Having an efficient way of generating proper documentation enables more time for the developing of applications.
 
 ## Table of Contents
-  - [Installation](#installation) 
-  - [Usage](#usage) 
-  - [License](#license)
-  - [Badges](#badges) 
-  - [Contributing](#how-to-contribute) 
-  - [Tests](#tests) 
-  - [Questions](#questions)
+[Installation](#installation) 
+[Usage](#usage) 
+[License](#license)
+[Badges](#badges) 
+[Contributing](#how-to-contribute) 
+[Tests](#tests) 
+[Questions](#questions)
 
 ## Installation
     
