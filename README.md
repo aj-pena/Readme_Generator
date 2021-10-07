@@ -8,11 +8,17 @@ This project will create a professional README.md file from the command line. Th
 
 ## Table of Contents
 - [Installation](#installation) 
-- [Usage](#usage) 
+  
+- [Usage](#usage)
+   
 - [License](#license)
-- [Badges](#badges) 
-- [Contributing](#how-to-contribute) 
-- [Tests](#tests) 
+  
+- [Badges](#badges)
+   
+- [Contributing](#how-to-contribute)
+   
+- [Tests](#tests)
+   
 - [Questions](#questions)
 
 ## Installation
