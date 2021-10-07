@@ -1,9 +1,24 @@
-# Test H
-  # this is test H
-  # none
-  # later
-  # not yet
-  # non existent
-  # ,
-  # buy me a drink first
-  # no no no
+# Tet
+    # Description 
+  This is Tet 
+
+  #Installation  
+  none
+
+  # Usage  
+  none
+  
+  # Contributing  
+  none
+  
+  # Tests  
+  not yet
+  
+  # License
+  
+  
+  # GitHub Username  
+  @AndrsPea
+  
+  # email
+  email@email.com
