@@ -62,7 +62,23 @@ function generateMarkdown(data) {     // Should I do an fs.appendFile() inside t
   ${ba}
   
   # Description 
-  ${data.description} 
+  ${data.description}
+  
+  # Table of Contents
+
+  -[Installation](#installation)
+
+  -[Usage](#usage)
+
+  -[Contributing](#contributing)
+
+  -[Tests](#tests)
+
+  -[License](#license)
+
+  -[GitHub Username](#github-username)
+  
+  -[Email](#email)
 
   # Installation  
   ${data.installation}
@@ -77,9 +93,11 @@ function generateMarkdown(data) {     // Should I do an fs.appendFile() inside t
   ${data.test}
   
   # License
-  ${section}
   ${ba}
-  ${li}
+  
+  ${section}
+
+  For more information visit: ${li}
   
   # GitHub Username  
   ${data.github}
