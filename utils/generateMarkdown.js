@@ -11,10 +11,12 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+
+function generateMarkdown(data) {     // Should I do an fs.appendFile() inside this function?
   return `# ${data.title}
 
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection;
+
