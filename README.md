@@ -24,7 +24,14 @@ This project will create a professional README.md file from the command line. Th
 ## Installation
     
 ## Usage
-For usage instructions, check this [walkthrough video](https://watch.screencastify.com/v/D1K0zzhjTvi24S9js6H5)
+This application is run from the command line.
+It is initialized using command node index.js
+a series of prompts will follow, asking for your input.
+Answer accordingly and a sampleREADME.md file will be output to the same folder of the index.js.
+
+![Example of the command line steps and resulting sampleREADME.md file](./utils/images/screenshot.PNG)
+
+For more usage instructions, check this [walkthrough video](https://watch.screencastify.com/v/D1K0zzhjTvi24S9js6H5)
 
 ## License
 
