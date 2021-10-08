@@ -13,7 +13,7 @@ This project will create a professional README.md file from the command line. Th
    
 - [License](#license)
   
-- [Badges](#badges)
+- [GitHub](#github)
    
 - [Contributing](#how-to-contribute)
    
@@ -27,7 +27,9 @@ This project will create a professional README.md file from the command line. Th
 
 ## License
 
-## Badges
+## Github
+
+https://github.com/aj-pena/Readme_Generator.git
 
 ## How to Contribute
 
