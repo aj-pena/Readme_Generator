@@ -1,9 +1,9 @@
 
-  # TestO
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # Test of Readme Generator
+  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
   
   # Description 
-  this is test O
+  This is an application that creates Readme files
   
   # Table of Contents
 
@@ -22,23 +22,23 @@
   -[Email](#email)
 
   # Installation  
-  none
+  go to the provided github repo and fork the repository
 
   # Usage  
-  go to github and fork
+  none so far
   
   # Contributing  
-  see license guidelines
+  feel free to check the licensing details in the license section
   
   # Tests  
-  n
+  none
   
   # License
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
   
-  This project is licensed under the terms of the Apache license.
+  This project is licensed under the terms of the GNU GPLv3 license.
 
-  For more information visit: https://choosealicense.com/licenses/apache-2.0/
+  For more information visit: https://choosealicense.com/licenses/gpl-3.0/
   
   # GitHub Username  
   aj-pena

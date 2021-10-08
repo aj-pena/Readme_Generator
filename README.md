@@ -24,6 +24,7 @@ This project will create a professional README.md file from the command line. Th
 ## Installation
     
 ## Usage
+For usage instructions, check this [walkthrough video](https://watch.screencastify.com/v/D1K0zzhjTvi24S9js6H5)
 
 ## License
 
